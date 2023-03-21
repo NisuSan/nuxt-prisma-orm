@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "my-module-playground",
+  "devDependencies": {
+    "prisma": "^4.11.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prisma-generate": "npx prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "ts-node": "^10.9.1"
+  }
+}
